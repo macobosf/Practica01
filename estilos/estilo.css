@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1, p,  h2 {
+	color: white ;
+	text-transform: uppercase;
+	/*border-color: black;*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenes {
+	width: "500" ;
+	height: "500";
+}
+
+a{
+	text-decoration: none
+}
+
+#menuprincipal{
+	/*border-width: thin ;
+	border-color: white;
+	border-style: solid;*/
+	border: 2px white dashed;
+	width: 20%;
+	float: left;
+}
+
+#contenido{
+	/*border-width: thick;
+	border-color: white;
+    border-style: solid;*/
+    border: 2px white solid;
+	width: 60%;
+	margin-left : 10px;
+	padding-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	float: left;
+
+}
+
+#pie{
+	border: 2px white dashed;
+	width: 20%;
+	float: right;
+}
+
+/*body {
+	background-image: url("../images/fondo.jpg" );
+	background-position: center;
+}*/
+
+
+
+/*body{
+	padding-left: 10%;
+}*/
